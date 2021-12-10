@@ -1,0 +1,47 @@
+/*navigation below*/
+.inline-block {
+    display: inline-block;
+    vertical-align: text-top;
+    background-color: blue;
+    padding: 10px;
+  }
+  /* temporarily added color to give visual of changes*/
+  /*added float:right to move navigation links to the right of logo
+  nav { 
+    float: right;
+  }*/
+  .logo {
+    width: 23%;
+    padding: 1%;
+  }
+  /* temporarily added color to give visual of changes
+  removed width of 73% as instructed by HW and replaced by display flex, space-around to achieve desired look*/
+  .navigation {
+    display:flex;
+    justify-content: space-around;
+    background-color: red;
+  }
+  /* Removed step 3 under Navbar CSS. Ul elements stack on top of each other instead of aligining*/ 
+  /* hero section below*/
+  .profilePic {
+    position: absolute;
+    height: 500px;
+    width:auto;
+    left: -30px;
+  }
+  .herolmg { 
+    height: 600px;
+    padding: 25px;
+}
+.content {
+  float:right;
+   width: 500px;
+
+}
+/* footer section below*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
