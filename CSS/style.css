@@ -34,9 +34,35 @@
     padding: 25px;
 }
 .content {
-  float:right;
-   width: 500px;
+   float:right;
+   background-color: yellow;
+   width: 648px;
+   margin: 67px
+}
+#myName {
+font-family: 'Raleway'; sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 96px;
+line-height: 72px;
+}
 
+.button {
+  font-family: 'Noto Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 48px;
+  color: #FFFF;
+  background-color: #A74546;
+
+display: inline-block;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width:auto;
+padding-top:16px;
+padding-bottom:16px
 }
 /* footer section below*/
 .footer {
